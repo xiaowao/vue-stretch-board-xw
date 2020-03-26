@@ -13,6 +13,7 @@ import StretchleBoard from 'vue-stretch-board-xw'
 ```
 ## 版本链
 v1.0.0 基础功能搭建
+v1.0.1 更新readme
 
 ## Example
 
@@ -90,25 +91,25 @@ body, ul, li {
 ### Props
 
 <thead>
-    <tr>
-      <th>name</th>
-      <th>type</th>
-      <th>default</th>
-      <th>description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>top</td>
-      <td>Number</td>
-      <td>100</td>
-      <td>纵向可拉伸的最高位置（距顶部）</td>
-    </tr>
-    <tr>
-      <td>bottom</td>
-      <td>Number</td>
-      <td>1000 * 1000</td>
-      <td>纵向可压缩的最小位置（距底部）</td>
-    </tr>
-  </tbody>
+  <tr>
+    <th>name</th>
+    <th>type</th>
+    <th>default</th>
+    <th>description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>top</td>
+    <td>Number</td>
+    <td>100</td>
+    <td>纵向可拉伸的最高位置（距顶部）</td>
+  </tr>
+  <tr>
+    <td>bottom</td>
+    <td>Number</td>
+    <td>1000 * 1000</td>
+    <td>纵向可压缩的最小位置（距底部）</td>
+  </tr>
+</tbody>
 </table>
